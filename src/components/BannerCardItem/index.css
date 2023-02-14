@@ -1,0 +1,84 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Write your code here. */
+.heading {
+  color: #326a9d;
+  font-size: 20px;
+}
+.paragraph {
+  color: #cbced2;
+}
+.button {
+  color: #326a9d;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+}
+@media screen and (max-width: 992px) {
+  .card-1 {
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+  }
+  .card {
+    border-style: solid;
+    border-color: #cbced2;
+    margin: 20px;
+    border-width: 1px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .heading {
+    color: #326a9d;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Roboto';
+  }
+  .paragraph {
+    color: #64748b;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 20px;
+    margin: 40px;
+  }
+  .card-2 {
+    justify-content: flex-start;
+  }
+}
+.card {
+  border-style: solid;
+  border-color: #cbced2;
+  margin: 20px;
+  border-width: 1px;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (min-width: 993px) {
+  .card-1 {
+    justify-content: flex-start;
+  }
+  .cards-container {
+    margin: 30px;
+  }
+}
